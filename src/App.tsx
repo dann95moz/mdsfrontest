@@ -36,7 +36,7 @@ function App() {
       </main>
     )
   }
-  if (copyData.length === 0) {
+  if (copyData && copyData.length === 0) {
     return (
       <p>No results found</p>
     )
