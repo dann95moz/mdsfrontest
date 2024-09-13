@@ -1,0 +1,18 @@
+.container{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  background-color: white;
+}
+.input{
+  border-radius: 8px;
+  background-color: #f6f6f6f6;
+  border:none;
+  width: 13rem;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 2rem 4rem;
+  }
+}
